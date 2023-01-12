@@ -1,10 +1,14 @@
 # MyPreTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0. for Pre-test
+Angular v15 supports node.js versions: 14.20.x, 16.13.x and 18.10.x
 
 ## Quick start
-# install the repo with npm
-npm install
+# clone the repository
+git clone https://github.com/thitikorn-su/pretest.git
+
+# install the repository with npm
+Run `install` 
 
 ## Development server
 
