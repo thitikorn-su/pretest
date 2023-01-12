@@ -1,0 +1,144 @@
+/* --- SP ---------- */
+@media print, screen and (max-width: 768px) {
+    .wrap .result {
+        background-color: #f9f9f9;
+        border-top: 2px solid #a4a8b1;
+        padding: 5%;
+    }
+    .wrap .result .result-inner {
+    }
+    .wrap .result .result-inner .box {
+        padding: 20px 0;
+        border-bottom: 1px solid #d2d2d2;
+    }
+    .wrap .result .result-inner .box:last-of-type {
+        border: 0;
+    }
+    .wrap .result .result-inner .box .name {
+        font-size: 90%;
+        font-weight: bold;
+    }
+    .wrap .result .result-inner .box .collection {
+        float: right;
+        font-size: 100%;
+        font-weight: bold;
+        color: #000;
+    }
+    .wrap .result .result-inner .box:last-of-type .collection {
+        color: #fa3932;
+        font-size: 120%;
+    }
+
+}
+
+/* --- PC ---------- */
+@media print, screen and (min-width: 769px) {
+    .wrap {
+        margin: 50px auto 0;
+    }
+    .wrap .result {
+        box-sizing: border-box;
+    }
+    .wrap .result .result-inner {
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        border: 2px solid #000;
+        margin: 40px auto 40px;
+    }
+    .wrap .result .result-inner .box {
+        width: 35%;
+    }
+    .wrap .result .result-inner .box:last-of-type {
+        width: 30%;
+    }
+    .wrap .result .result-inner .box span {
+        display: block;
+        background-color: #fafafa;
+    }
+    .wrap .result .result-inner .box .name {
+        padding: 20px;
+        font-size: 110%;
+        font-weight: bold;
+        color: #000;
+        border-bottom: 1px solid #000;
+        border-right: 1px dashed #000;
+    }
+    .wrap .result .result-inner .box .collection {
+        font-size: 160%;
+        font-weight: bold;
+        color: #000;
+        border-right: 1px dashed #000;
+        text-align: right;
+        padding: 40px;
+        line-height: 1;
+        position: relative;
+    }
+    .wrap .result .result-inner .box:last-of-type span {
+        border-right: 0;
+    }
+    .wrap .result .result-inner .box:last-of-type .collection {
+        color: #fa3932;
+    }
+    .wrap .result .result-inner .box .collection .icon-plus {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #313131;
+        border-radius: 50%;
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        z-index: 1;
+    }
+    .wrap .result .result-inner .box .collection .icon-plus::before,
+    .wrap .result .result-inner .box .collection .icon-plus::after {
+        position: absolute;
+        top: 13px;
+        left: 50%;
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-top: 3px solid #fff;
+        transform: translateX(-50%);
+    }
+    .wrap .result .result-inner .box .collection .icon-plus:after {
+        top: 5px;
+        left: 0px;
+        transform: rotate(90deg);
+    }
+    .wrap .result .result-inner .box .collection .icon-equal {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #1f208a;
+        border-radius: 50%;
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        z-index: 1;
+    }
+    .wrap .result .result-inner .box .collection .icon-equal::before,
+    .wrap .result .result-inner .box .collection .icon-equal::after {
+        position: absolute;
+        top: 17px;
+        left: 50%;
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-top: 3px solid #fff;
+        transform: translateX(-50%);
+    }
+    .wrap .result .result-inner .box .collection .icon-equal:after {
+        top: 10px;
+    }
+}
