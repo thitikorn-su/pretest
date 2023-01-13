@@ -10,6 +10,7 @@ git clone https://github.com/thitikorn-su/pretest.git
 
 ## install packages with npm
 Run `cd PROJECT_DIRECTORY_NAME` to change directory.
+
 Run `npm install` 
 
 ## Development server
