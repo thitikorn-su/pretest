@@ -9,7 +9,7 @@ Angular v15 supports node.js versions: 14.20.x, 16.13.x and 18.10.x
 git clone https://github.com/thitikorn-su/pretest.git
 
 ## install packages with npm
-Run `cd PROJECT_DIRECTORY_NAME` to change directory.
+Run `cd PROJECT_DIRECTORY` to change directory.
 
 Run `npm install` 
 
